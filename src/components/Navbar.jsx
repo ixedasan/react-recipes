@@ -6,7 +6,7 @@ export function Navbar() {
 		<>
 			<div className='p-3 md:p-10 border-r min-h-screen w-24 md:w-64 hidden sm:block'>
 				<div className='flex flex-col gap-22 sticky'>
-					<div className='w-full flex justify-center items-center p-4'>
+					<div className='w-full flex justify-center items-center p-5'>
 						<CookingPot size={128} />
 						<p className='hidden md:block font text-lg uppercase'>
 							Best Recipes Platform
