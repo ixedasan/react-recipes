@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
-import { HomePage } from './pages/HomePage'
 import { Navbar } from './components/Navbar'
-import { FavoritesPage } from "./pages/FavoritesPage"
+import { FavoritesPage } from './pages/FavoritesPage'
+import { HomePage } from './pages/HomePage'
+import { RecipeDetails } from "./pages/RecipeDetails"
 
 export function App() {
 	return (
@@ -11,6 +12,7 @@ export function App() {
 				<Routes>
 					<Route path='/' element={<HomePage />} />
 					<Route path='/favorites' element={<FavoritesPage />} />
+					<Route path='/recipe/:id' element={<RecipeDetails />} />
 				</Routes>
 			</div>
 		</>
