@@ -1,4 +1,3 @@
-// src/hooks/useFavorite.js
 import { useEffect, useState } from 'react'
 
 export function useFavorite(recipeUri) {

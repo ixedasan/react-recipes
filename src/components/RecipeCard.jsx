@@ -1,4 +1,3 @@
-// src/components/RecipeCard.js
 import { Heart, HeartPulse } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useFavorite } from '../hooks/useFavorite'
